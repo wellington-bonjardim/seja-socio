@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+body {
+    background-color: black;
+    background-image: url(/assets/imagem3.jpg) ;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header {
+    /* background-color: blueviolet; */
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    height: 100px;
+}
+
+img {
+    height: 100px;
+}
+
+/*--------------- CARDS ---------------*/
+main {
+    margin: 10px 50px 30px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+main .card {
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    width: 300px;
+    margin: 10px;
+    padding: 30px;
+    text-align: center;
+    border: 1px solid white;
+}
+
+main .card h1 {
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+main .card h3 {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+main .card .divider {
+    margin: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+main .card button {
+    width: 100%;
+    padding: 7px;
+    margin-top: 10px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+}
+
+main .card:hover {
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+
+/*FAZER O CARD:HOVER RESPEITANDO AS CORES, OU SEJA, PLANO BRANCO = CARD BRANCO, PLANO PRETO = CARD PRETO, PLANO ALVINEGRO = AINDA DECIDIR, PLANO GLORIOSO = DOURADO*/
+/*FAZER O SWITCH ENTRE PLANO MENSAL E PLANO ANUAL ABAIXO DA LOGO*/
+/*INCLUIR UM LINK EM "SAIBA MAIS" PARA DIRECIONAR PARA A PÁGINA OFICIAL DO BOTAFOGO*/
+/*INCLUIR NO RODAPÉ QUE TODOS OS DIREITOS SÃO RESERVADOS AO BOTAFOGO*/
