@@ -31,8 +31,8 @@ main {
     align-items: center;
 }
 main .card {
-    background-color: black;
-    color: white;
+    background-color: #ccc;
+    color: black;
     border-radius: 7px;
     box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
     width: 300px;
@@ -40,6 +40,7 @@ main .card {
     padding: 30px;
     text-align: center;
     border: 1px solid white;
+    opacity: 0.9;
 }
 
 main .card h1 {
@@ -55,7 +56,7 @@ main .card h3 {
 
 main .card .divider {
     margin: 5px;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid black;
 }
 
 main .card button {
@@ -66,13 +67,55 @@ main .card button {
     border: none;
     border-radius: 5px;
 }
-
+/*--------------- CARD:HOVER ---------------*/
 main .card:hover {
-    transition: 0.3s;
+    transition: 0.5s;
     transform: scale(1.1);
+    opacity: 1;
 }
 
-/*FAZER O CARD:HOVER RESPEITANDO AS CORES, OU SEJA, PLANO BRANCO = CARD BRANCO, PLANO PRETO = CARD PRETO, PLANO ALVINEGRO = AINDA DECIDIR, PLANO GLORIOSO = DOURADO*/
+main .card_branco:hover {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+}
+
+main .card_branco:hover button,
+.card_glorioso:hover button {
+    background-color: black;
+    color: white;
+}
+
+main .card_preto:hover,
+.card_alvinegro:hover {
+    background-color: black;
+    color: white;
+}
+
+main .card_preto:hover .divider_preto, 
+.card_alvinegro:hover .divider_preto {
+    border: 1px solid white;
+}
+
+main .card_glorioso:hover {
+    background-color: gold;
+    border: 1px solid black;
+    color: black;
+}
+
+button {
+    cursor: pointer;
+}
+
+/*--------------- FOOTER ---------------*/
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 30px;
+    padding: 5px 20px;
+    margin: 0 auto;
+} /*Melhorar o footer*/
+
 /*FAZER O SWITCH ENTRE PLANO MENSAL E PLANO ANUAL ABAIXO DA LOGO*/
-/*INCLUIR UM LINK EM "SAIBA MAIS" PARA DIRECIONAR PARA A PÁGINA OFICIAL DO BOTAFOGO*/
 /*INCLUIR NO RODAPÉ QUE TODOS OS DIREITOS SÃO RESERVADOS AO BOTAFOGO*/
