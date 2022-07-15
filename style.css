@@ -27,9 +27,69 @@ img {
     height: 100px;
 }
 
+/*--------------- TOGGLE ---------------*/
+.botao {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.botao p {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+}
+
+.input {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.toggle {
+    display: none;
+}
+
+.toggle + label {
+    width: 40px;
+    height: 20px;
+    background: lightgray;
+    display: block;
+    position: relative;
+    border-radius: 20px;
+    padding: 2px;
+    transition: 0.2s;
+    cursor: pointer;
+    margin: 0 auto;
+
+}
+
+.toggle + label:before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: white;
+    display: block;
+    border-radius: 50%;
+    right: unset;
+    left: 2px;
+    top: 2px;
+    transition: 0.2s;
+}
+
+.toggle:checked + label {
+    background: gold;
+}
+
+.toggle:checked + label:before {
+    content: '';
+    left: calc(100% - 22px);
+    box-shadow: 0 4px 4px rgb(0 0 0 / 10%);
+}
+
 /*--------------- CARDS ---------------*/
 main {
-    margin: 10px 50px 30px 50px;
+    margin: 20px 50px 30px 50px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
