@@ -172,6 +172,36 @@ button {
     cursor: pointer;
 }
 
+/*--------------- CARD-VANTAGENS ---------------*/
+.vantagens {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.vantagens .card-vantagens h5 {
+    margin-bottom: 30px;
+}
+
+.vantagens .card-vantagens p {
+    margin-top: 30px;
+
+}
+
+.vantagens .card-vantagens:hover {
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.1);
+    opacity: 1;
+    background: gold;
+}
+
+.vantagens .card-vantagens:hover button {
+    background: black;
+    color: white;
+}
+
 /*--------------- FOOTER ---------------*/
 footer {
     background-color: black;
