@@ -13,7 +13,7 @@
     <!--FONTAWSEOME-->
     <script src="https://kit.fontawesome.com/438b2365a2.js" crossorigin="anonymous"></script>
     <!--SCRIPT-->
-    <link rel="stylesheet" href="main.js">
+    <script src="main.js"></script>
 
     <title>Camisa 7</title>
 </head>
@@ -27,7 +27,7 @@
             </div>
             <div class="input" onclick="toggle()">
                 <input id="btn" class="toggle" type="checkbox" >
-                <label for="btn"></label>
+                <label for="btn" id="teste"></label>
             </div>
             <div>
                 <p>OUTROS BENEFÍCIOS</p>
@@ -36,90 +36,75 @@
     </header>
 
     <main>
-        <div class="card card_branco">
-            <h5>BRANCO</h5>
-            <h1>R&dollar;19.90</h1>
-            <div class="divider"></div>
-            <p>A partir de 50% de desconto nos ingressos (jogos em casa)</p>
-            <div class="divider"></div>
-            <p>Kit anual BRANCO</p>
-            <div class="divider"></div>
-            <p>10% de desconto em todas as compras na nossa loja online oficial</p>
-            <div class="divider"></div>
-            <p>Nível 1 de pontos para trocar por produtos e experiências</p>
-            <div class="divider"></div>
-            <a href="https://camisa7.botafogo.com.br/" target="_blank"><button>VIRE SÓCIO!</button></a>
-        </div>
-
-        <div class="card card_preto">
-            <h5>PRETO</h5>
-            <h1>R&dollar;39.90</h1>
-            <div class="divider divider_preto"></div>
-            <p>A partir de 60% de desconto nos ingressos (jogos em casa)</p>
-            <div class="divider divider_preto"></div>
-            <p>Kit anual PRETO</p>
-            <div class="divider divider_preto"></div>
-            <p>10% de desconto nas compras na nossa loja online</p>
-            <div class="divider divider_preto"></div>
-            <p>Nível 2 de pontos para trocar por produtos e experiências</p>
-            <div class="divider divider_preto"></div>
-            <a href="https://camisa7.botafogo.com.br/" target="_blank"><button>VIRE SÓCIO!</button></a>
-        </div>
-
-        <div class="card card_alvinegro">
-            <h5>ALVINEGRO</h5>
-            <h1>R&dollar;79.90</h1>
-            <div class="divider divider_preto"></div>
-            <p>A partir de 80% de desconto nos ingressos (jogos em casa)</p>
-            <div class="divider divider_preto"></div>
-            <p>Kit anual ALVINEGRO</p>
-            <div class="divider divider_preto"></div>
-            <p>15% de desconto nas compras na nossa loja online</p>
-            <div class="divider divider_preto"></div>
-            <p>Nível 3 de pontos para trocar por produtos e experiências</p>
-            <div class="divider divider_preto"></div>
-            <a href="https://camisa7.botafogo.com.br/" target="_blank"><button>VIRE SÓCIO!</button></a>
-        </div>
-
-        <div class="card card_glorioso">
-            <h5>GLORIOSO</h5>
-            <h1>R&dollar;149.90</h1>
-            <div class="divider"></div>
-            <p>Check-in gratuito (jogos em casa)</p>
-            <div class="divider"></div>
-            <p>Kit anual GLORIOSO</p>
-            <div class="divider"></div>
-            <p>20% de desconto nas compras na nossa loja online</p>
-            <div class="divider"></div>
-            <p>Nível 4 de pontos para trocar por produtos e experiências</p>
-            <div class="divider"></div>
-            <p>Direito a 1 acompanhante para setores de Arquibancada</p>
-            <div class="divider"></div>
-            <a href="https://camisa7.botafogo.com.br/" target="_blank"><button>VIRE SÓCIO!</button></a>
+        <div id="principal" onclick="toggle()">
+            <div class="card card_branco">
+                <h5>BRANCO</h5>
+                <h1>R&dollar;19.90</h1>
+                <div class="divider"></div>
+                <p>A partir de 50% de desconto nos ingressos (jogos em casa)</p>
+                <div class="divider"></div>
+                <p>Kit anual BRANCO</p>
+                <div class="divider"></div>
+                <p>10% de desconto em todas as compras na nossa loja online oficial</p>
+                <div class="divider"></div>
+                <p>Nível 1 de pontos para trocar por produtos e experiências</p>
+                <div class="divider"></div>
+                <a href="https://camisa7.botafogo.com.br/" target="_blank"><button>VIRE SÓCIO!</button></a>
+            </div>
+    
+            <div class="card card_preto">
+                <h5>PRETO</h5>
+                <h1>R&dollar;39.90</h1>
+                <div class="divider divider_preto"></div>
+                <p>A partir de 60% de desconto nos ingressos (jogos em casa)</p>
+                <div class="divider divider_preto"></div>
+                <p>Kit anual PRETO</p>
+                <div class="divider divider_preto"></div>
+                <p>10% de desconto nas compras na nossa loja online</p>
+                <div class="divider divider_preto"></div>
+                <p>Nível 2 de pontos para trocar por produtos e experiências</p>
+                <div class="divider divider_preto"></div>
+                <a href="https://camisa7.botafogo.com.br/" target="_blank"><button>VIRE SÓCIO!</button></a>
+            </div>
+    
+            <div class="card card_alvinegro">
+                <h5>ALVINEGRO</h5>
+                <h1>R&dollar;79.90</h1>
+                <div class="divider divider_preto"></div>
+                <p>A partir de 80% de desconto nos ingressos (jogos em casa)</p>
+                <div class="divider divider_preto"></div>
+                <p>Kit anual ALVINEGRO</p>
+                <div class="divider divider_preto"></div>
+                <p>15% de desconto nas compras na nossa loja online</p>
+                <div class="divider divider_preto"></div>
+                <p>Nível 3 de pontos para trocar por produtos e experiências</p>
+                <div class="divider divider_preto"></div>
+                <a href="https://camisa7.botafogo.com.br/" target="_blank"><button>VIRE SÓCIO!</button></a>
+            </div>
+    
+            <div class="card card_glorioso">
+                <h5>GLORIOSO</h5>
+                <h1>R&dollar;149.90</h1>
+                <div class="divider"></div>
+                <p>Check-in gratuito (jogos em casa)</p>
+                <div class="divider"></div>
+                <p>Kit anual GLORIOSO</p>
+                <div class="divider"></div>
+                <p>20% de desconto nas compras na nossa loja online</p>
+                <div class="divider"></div>
+                <p>Nível 4 de pontos para trocar por produtos e experiências</p>
+                <div class="divider"></div>
+                <p>Direito a 1 acompanhante para setores de Arquibancada</p>
+                <div class="divider"></div>
+                <a href="https://camisa7.botafogo.com.br/" target="_blank"><button>VIRE SÓCIO!</button></a>
+            </div>
         </div>
     </main>
-
-    <footer>
-        <p>Todos os direitos são reservados ao <strong>Botafogo de Futebol e Regatas</strong></p>
-        <div class="social">
-            <a href="https://twitter.com/Botafogo?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">
-                <i class="fa-brands fa-twitter fa-2xl icon"></i>
-            </a>
-
-            <a href="https://www.instagram.com/botafogo/?hl=pt" target="_blank">
-                <i class="fa-brands fa-instagram fa-2xl icon"></i>
-            </a>
-
-            <a href="https://www.facebook.com/Botafogo/" target="_blank">
-                <i class="fa-brands fa-facebook fa-2xl icon"></i>
-            </a>
-        </div>
-    </footer>
 
 <!---------------------- MAIS VANTAGENS ----------------------------->
     <div id="vantagens" class="vantagens">
         
-        <main>
+        <main class="secundario">
             <div class="card card-vantagens">
                 <h5>KI ANUAL</h5>
                 <h1><i class="fa-solid fa-gifts fa-2xl"></i></h1>
@@ -140,24 +125,23 @@
                 <p>Conheça nossos parceiros e tenha descontos e cashback em diversas lojas online!</p>
                 <a href="https://camisa7.botafogo.com.br/" target="_blank"><button>APROVEITE!</button></a>
         </main>
-    
-        <footer>
-            <p>Todos os direitos são reservados ao <strong>Botafogo de Futebol e Regatas</strong></p>
-            <div class="social">
-                <a href="https://twitter.com/Botafogo?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">
-                    <i class="fa-brands fa-twitter fa-2xl icon"></i>
-                </a>
-    
-                <a href="https://www.instagram.com/botafogo/?hl=pt" target="_blank">
-                    <i class="fa-brands fa-instagram fa-2xl icon"></i>
-                </a>
-    
-                <a href="https://www.facebook.com/Botafogo/" target="_blank">
-                    <i class="fa-brands fa-facebook fa-2xl icon"></i>
-                </a>
-            </div>
-        </footer>
     </div>
     
+    <footer>
+        <p>Todos os direitos são reservados ao <strong>Botafogo de Futebol e Regatas</strong></p>
+        <div class="social">
+            <a href="https://twitter.com/Botafogo?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank">
+                <i class="fa-brands fa-twitter fa-2xl icon"></i>
+            </a>
+
+            <a href="https://www.instagram.com/botafogo/?hl=pt" target="_blank">
+                <i class="fa-brands fa-instagram fa-2xl icon"></i>
+            </a>
+
+            <a href="https://www.facebook.com/Botafogo/" target="_blank">
+                <i class="fa-brands fa-facebook fa-2xl icon"></i>
+            </a>
+        </div>
+    </footer>
 </body>
 </html>

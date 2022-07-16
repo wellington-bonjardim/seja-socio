@@ -88,7 +88,7 @@ img {
 }
 
 /*--------------- CARDS ---------------*/
-main {
+main #principal {
     margin: 20px 50px 30px 50px;
     display: flex;
     flex-direction: row;
@@ -173,6 +173,14 @@ button {
 }
 
 /*--------------- CARD-VANTAGENS ---------------*/
+.secundario {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 50px 30px 50px;
+}
+
 .vantagens {
     display: none;
 }
@@ -219,8 +227,6 @@ footer p {
 footer .social {
     margin: 0 auto;
     padding: 20px;
-
-
 }
 
 footer .social a {
