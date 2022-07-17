@@ -1,13 +1,8 @@
-function toggle() {
-    let btn = document.getElementById('btn')
-    let principal = document.getElementById('principal')
-    let vantagens = document.getElementById('vantagens')
+const btn = document.querySelector('#btn')
+const principal = document.querySelector('#principal')
+const vantagens = document.querySelector('#vantagens')
 
-    if(vantagens.classList.contains('show')) {
-        vantagens.classList.remove('show')
-    } else {
-        vantagens.classList.add('show')
-        principal.remove()
-    }
-    btn.addEventListener('click', toggle)
-}
+btn.addEventListener('click', () => {
+    principal.classList.toggle('show')
+    vantagens.classList.toggle('show')
+})
